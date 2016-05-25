@@ -27,10 +27,11 @@ $(document).ready(function(){
 	    this.tag = '<'+tag+'>';
 	    this.tagClose = '</'+tag+'>';
 	    this.cls = cls;
-	    this.make = function(element){
+		};
+
+		quickBtn.prototype.make = function(element){
 				element.addClass('btn '+this.cls).html(this.tag+this.txt+this.tagClose);
 	    	}
-		};
 
 	var quoteBtn = new quickBtn('', 'p', 'rQuote');
 
