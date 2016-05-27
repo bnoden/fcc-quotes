@@ -1,5 +1,5 @@
 body {
-  background: #1e1e1e;
+	background: #1e1e1e;
 }
 
 h1 {
@@ -8,18 +8,18 @@ h1 {
 
 #quoteView {
   position: relative;
-  background: #1e1e1e;
+	background: #1e1e1e;
   margin: auto;
   padding-top: 15px;
   border-radius: 2px;
   text-align: center;
-  width: 300px;
+	width: 300px;
   height: 300px;
 }
 
 .rQuote {
   width: 81px; height: 63px;
-  background: url(img/sb1.png);
+  background: url(https://raw.githubusercontent.com/bnoden/fcc-quotes/master/img/sb1.png);
   background-size: 100%;
   background-repeat: no-repeat;
   color: #eeeeee;
@@ -28,12 +28,12 @@ h1 {
 }
 
 .rQuote:hover {
-  cursor: pointer;
-  background: url(img/sb6.png);
+	cursor: pointer;
+  background: url(https://raw.githubusercontent.com/bnoden/fcc-quotes/master/img/sb6.png);
 }
 
 .rQuote:active {
-  background: url(img/sb1.png);
+  background: url(https://raw.githubusercontent.com/bnoden/fcc-quotes/master/img/sb1.png);
 }
 
 #quote {

@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 	$('.'+quoteBtn.cls).on('click', function(){
 			quoteView.css('background', bg.change());
-			quoteImg.attr('src', 'img/ql2.gif');
+			quoteImg.attr('src', 'https://raw.githubusercontent.com/bnoden/fcc-quotes/master/img/ql2.gif');
 		});
 
 	
